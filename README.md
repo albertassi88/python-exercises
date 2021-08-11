@@ -13,6 +13,8 @@
 #### Abra um terminal e digite python3 --version.
 
 
+
+-------------------------------------------------
 ## Pyenv (opcional)
 ### O que é?
 #### É comum que pessoas desenvolvedoras Python precisem trabalhar com versões diferentes da linguagem, seja na atuação em múltiplos projetos, seja para estudar novas funcionalidades da linguagem que ainda estão em fase de desenvolvimento ou testes. O pyenv nos ajuda a lidar com isso!.
@@ -40,6 +42,8 @@
 #### pyenv versions
 
 
+
+-------------------------------------------------
 ## Pip
 ### O que é?
 #### Pip é o gerenciador de pacotes do python. É um cliente de linha de comandos utilizado para controle das depêndencias do projeto.
@@ -52,6 +56,8 @@
 #### Abra um terminal e digite python3 -m pip --version 
 
 
+
+-------------------------------------------------
 ## Venv
 ### O que é?
 #### Responsável por criar ambientes virtuais Python e provê um isolamento dos pacotes instalados e suas respectivas versões. É um cliente de linha de comando que auxilia na separação de ambientes para diferentes projetos.
@@ -65,6 +71,8 @@
 #### Em um terminal digite python3 -m venv -h
 
 
+
+-------------------------------------------------
 ## Flake8
 ### O que é?
 #### Flake8 é um programa de linha de comando que verifica seu código e busca por erros ou formatações que não seguem o guia de estilo padrão do python, conhecido como PEP-8 . Além disso também verifica a complexidade ciclamática do seu código.
@@ -77,6 +85,8 @@
 #### Digite o comando python3 -m flake8 --version
 
 
+
+-------------------------------------------------
 ## Black
 ### O que é?
 #### Black é o formatador de código Python intransigente. Ao usá-lo, você concorda em ceder o controle sobre as minúcias da formatação manual. Em troca, o black dá a você velocidade, determinismo e liberdade do irritante pycodestyle sobre formatação. Você economizará tempo e energia mental para assuntos mais importantes.
@@ -89,6 +99,8 @@
 #### Digite o comando python3 -m black --version
 
 
+
+-------------------------------------------------
 ## VSCode(Python)
 ### O que é?
 #### O VSCode é um editor de texto e possui uma excelente extensão para Python que pode ser instalada através da marketplace.
@@ -110,6 +122,8 @@
 #### Abra um arquivo com extensão .py no VSCode e digite o código lista = [1,2,3] . Salve o arquivo e um aviso de erro deve acontecer. Passando o mouse sobre a linha veremos que o erro é: missing whitespace after ','flake8(E231). Para corrigir e testar se o nosso formatador está funcionando corretamente, digite ctrl + shift + i . Após salvar novamente o erro deve ter desaparecido. Caso isto não aconteça certifique que tenha feitos os passos anteriormente para instalação do flake8 e black.
 
 
+
+-------------------------------------------------
 ## CodeRunner
 ### O que é?
 #### Extensão do VSCode que permite rodar códigos ou trechos de códigos em mais de 30 linguagens de programação e adicionar também comandos customizados.
